@@ -140,3 +140,36 @@ header, footer {
 .video-btn:hover{
     background-color: #e7b500;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-ul{
+    display: flex;
+    align-items: center;
+}
+.footer-nav-item{
+    display: flex;
+    align-items: center;
+}
+.social-link{
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding-left: 7px;
+
+    transition: .25s;
+}
+.social-link:hover{
+    color: #e7b500;
+}
