@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 1000px;
+    }
+
+    .title-video{
+        margin-top: -500px;
+    }
+    .title{
+        max-width: 600px;
+        font-size: 40px;
+    }
+    .description{
+        font-size: 20px;
+    }
+
+}

@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -16,14 +17,14 @@
         <div class="container">
             <div class="header-container">
                 <div class="logo">
-                    <img src="img/logo.png" alt="logo"width="80">
+                    <a href="index.html" class="logo-link"><img src="img/logo.svg" alt="logo"width="200"></a>
                 </div>
                 <nav class="navigation">
                     <ul class="list-navigation">
                         <li class="nav-item"><a href="#" class="link-menu">карта напитков</a></li>
-                        <li class="nav-item"><a href="#" class="link-menu">Адреса и контакты</a></li>
+                        <li class="nav-item"><a href="#" class="link-menu">Адрес и контакты</a></li>
                     </ul>
-                    <button class="btn" type="button" id="header-btn">заказать доставку</button>
+                    <button class="btn" type="button" id="header-btn"><a href="#" class="order-link">заказать доставку</a></button>
                 </nav>
             </div>
         </div>
@@ -31,42 +32,37 @@
     <main class="main">
         <section class="section_1">
             <div class="section_1-container">
-                    <div class="block-video">
+                <div class="block-video">
                         <video src="video/back-video.mp4" autoplay="autoplay" loop="loop" poster playsinline muted="muted" class="videoback"></video>
-                    </div>
-<!--                <div class="video-overlay"></div>-->
+                </div>
                 <div class="container title-video">
                     <h1 class=" title video-title">Более 2 лет мы варим кофе для вас</h1>
                     <p class="description">теперь мы привезём вам его прямо домой или в офис</p>
+                    <div class="buttons">
+                        <button class="btn video-btn" id="delivery-btn">Заказать доставку</button>
+                        <button class="btn video-btn" id="catalog-btn">Перейти к меню</button>
+                    </div>
                 </div>
-                <div class="buttons">
-                    <button class="btn video-btn" id="delivery-btn">Заказать доставку</button>
-                    <button class="btn video-btn" id="catalog-btn">Перейти в каталог</button>
-                </div>
-            </div>
-        </section>
-        <section class="section_2">
-            <div class="container">
-
             </div>
         </section>
     </main>
-    <footer class="footer">
-         <div class="container">
-             <div class="footer-container">
-                 <nav class="footer-nav">
-                     <ul class="footer-ul">
-                         <li class="footer-nav-item">
-                             <img src="img/ico/insta-icon.svg" alt="" class="inst-icon" width="35">
-                             <a href="https://instagram.com/coffee-bugulma" class="social-link"> Инстаграм</a>
-                         </li>
-                         <li class="footer-nav-item"></li>
-                         <li class="footer-nav-item"></li>
-                     </ul>
-                 </nav>
-             </div>
-         </div>
-    </footer>
-<script src="script/main.js"></script>
+<!--    <footer class="footer">-->
+<!--         <div class="container">-->
+<!--             <div class="footer-container">-->
+<!--                 <nav class="footer-nav">-->
+<!--                     <ul class="footer-ul">-->
+<!--                         <li class="footer-nav-item">-->
+<!--                             <img src="img/ico/insta-icon.svg" alt="" class="inst-icon" width="35">-->
+<!--                             <a href="https://instagram.com/coffee-bugulma" class="social-link"> Инстаграм</a>-->
+<!--                         </li>-->
+<!--                         <li class="footer-nav-item">щышарпловаптло</li>-->
+<!--                         <li class="footer-nav-item">ыавсмгывлпаор</li>-->
+<!--                     </ul>-->
+<!--                 </nav>-->
+<!--                 <div class="copyright"><span>&copy; designed by Vladislav Tugulev, 2023</span></div>-->
+<!--             </div>-->
+<!--         </div>-->
+<!--    </footer>-->
+    <script src="script/main.js"></script>
 </body>
 </html>
