@@ -167,7 +167,16 @@
     .header-container{
         justify-content: center;
     }
+    .section_1-container{
+        overflow: hidden;
+    }
+    .block-video{
+        width: 360px;
+        height: 560px;
+        /*padding-top: 100px;*/
+    }
     .videoback{
+        margin-top: -60px;
         width: 200%;
     }
     .logo__img{
@@ -179,18 +188,19 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: -180px;
+        margin-top: -195px;
     }
     .title{
         text-align: right;
         width: 70%;
         font-size: 18px;
         margin-bottom: 30px;
+        padding-left: 37px;
     }
     .description{
         font-size: 14px;
         text-align: right;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         width: 80%;
         border-left: 0;
         border-right: 2px solid rgba(231, 181, 0, 0.7);
@@ -203,11 +213,15 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
+        margin-bottom: 30px;
 
     }
     .video-btn{
         width: 80%;
         margin-right: 0;
         margin-bottom: 20px;
+    }
+    #catalog-btn{
+        display: none;
     }
 }
