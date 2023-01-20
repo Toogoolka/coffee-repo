@@ -50,6 +50,9 @@
 
 }
 @media screen and (max-width: 1024px){
+    .section_1-container{
+        padding-bottom: 65px;
+    }
     .container{
         max-width: 800px;
     }
@@ -68,10 +71,24 @@
     }
     .title-video{
         font-size: 36px;
-        margin-top: -430px;
+        margin-top: -160px;
     }
     .description{
         font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .video-btn{
+        margin: 0 auto;
+        font-size: 18px;
+        padding: 12px 36px;
+    }
+    #catalog-btn{
+        padding: 12px 49px;
     }
 
 }
