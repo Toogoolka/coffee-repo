@@ -60,7 +60,7 @@ header{
 .nav-item:hover{
     border-bottom: 2px solid #e7b500;
 }
-.link-menu, .order-link{
+.link-menu, .order-link, .btn-menu-link{
     text-decoration: none;
     color: white;
 }

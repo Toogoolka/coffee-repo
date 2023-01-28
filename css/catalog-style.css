@@ -100,6 +100,9 @@ header{
     text-transform: uppercase;
 
     padding-bottom: 2px;
+    border-bottom: 2px solid rgba(231, 181, 0, 0);
+}
+#drinks{
     border-bottom: 2px solid #e7b500;
 }
 
